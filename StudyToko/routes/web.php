@@ -17,3 +17,4 @@
 // });
 
 Route::get('/', 'Utama@index');
+Route::post('/pushData','Utama@store');
