@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// bawaan Larave
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/', 'Utama@index');

@@ -17,7 +17,7 @@
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="/BahanStudy/images/ico/favicon.ico">
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/BahanStudy/images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/BahanStudy/images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/BahanStudy/images/ico/apple-touch-icon-72-precomposed.png">
@@ -111,8 +111,8 @@
 									<button type="button" class="btn btn-default get">Get it now</button>
 								</div>
 								<div class="col-sm-6">
-									<img src="/BahanStudy/images/home/girl2.jpg" class="girl img-responsive" alt="" />
-									<img src="/BahanStudy/images/home/pricing.png"  class="pricing" alt="" />
+									<img src="/BahanStudy//BahanStudy/images/home/girl2.jpg" class="girl img-responsive" alt="" />
+									<img src="/BahanStudy//BahanStudy/images/home/pricing.png"  class="pricing" alt="" />
 								</div>
 							</div>
 							
