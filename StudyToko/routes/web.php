@@ -21,3 +21,4 @@ Route::post('/pushData','Utama@store');
 
 Route::get('/login','Login@index');
 Route::post('/daftar','Login@register');
+Route::post('/masuk','Login@masuk');

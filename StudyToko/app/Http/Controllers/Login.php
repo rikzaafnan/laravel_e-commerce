@@ -21,4 +21,24 @@ class Login extends Controller
         ]);
         return redirect('/login');
     }
+
+    public function masuk(Request $request)
+    {
+        $user  = DB::table('tbl_user')->where('email',$request->email)->first();
+        
+        if ($user) {
+            if ($user->password == $request->password) {
+                $request->session()->put('id',$user->id);
+                echo 'Data disimpan dengan session id = ' .$request->session()->get('id');
+                return redirect('/');
+            }else{
+                echo "Password salah";
+            }
+        }else{
+            echo "User tidak ada";
+        }
+        
+        
+        
+    }
 }
